@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Harry Potter</title>
+  <link rel="shortcut icon" type="image/png" href="lightening.png">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script type="text/javascript" src="http://hp-api.herokuapp.com/api/characters"></script>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+  <div class="background">
+    <img class="img-grow" src="hpbackground.jpg">
+    <div id="logo-section-container">
+      <img id="hp-logo" src="hpLogo.png"/>
+      
+      <select id = "char-dropdown">
+        <option value="" disabled selected>Select a character...</option>
+      </select>
+    </div>
+  </div>
+  <div id="flex-container">
+    <ul id="char-list"></ul>
+  </div>
+  <ul class="chart-ul">
+    <a class="chart-a" href="charts.html"><li class="charts-link">Charts</li></a>
+  </ul>
+  
+
+</body>
+</html>

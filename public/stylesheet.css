@@ -1,0 +1,116 @@
+*{
+  margin; 0;
+  padding; 0;
+}
+
+html{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  z-index: 10;
+}
+
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background{
+  width: 100%;
+}
+
+.img-grow{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: no-repeat fixed;
+  background-size: cover;
+  transition: transform 70s;
+  position: fixed;
+  z-index: -1;
+}
+
+.img-grow:hover{
+  transform: scale(2);
+}
+
+#logo-section-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#hp-logo{
+  height:70%;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30%;
+  margin-bottom: 10%;
+  transition: 1s;
+}
+
+#hp-logo:hover{
+  transform: rotate(360deg);
+}
+
+#char-dropdown{
+  width: 40%;
+  margin: 0 auto;
+}
+
+#flex-container{
+  margin: 0 auto;
+  width: 70%;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.char-img{
+  height: 40%;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.chart-ul{
+  height: 60px;
+}
+
+
+.chart-a{
+  display: block;
+  text-decoration: none;
+  width: 20%;
+  height: 100%;
+  border: white 1px solid;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.5);
+  -webkit-transition: background-color .5 linear;
+  transition: all .2s ease-in-out;
+  transition: .8s;
+}
+
+.chart-a:hover{
+  background: rgba(200,255,255,0.5);
+  transform: scale(1.2);
+  -webkit-transition: background 0.5 linear;
+  transition: .8s;
+  color: red;
+}
+
+.charts-link{
+  align-items: center;
+  padding-top: 20px;
+}
+
+li{
+  list-style: none;
+}
